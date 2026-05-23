@@ -1,5 +1,29 @@
 # http://172.28.128.136/index.php?page=signin
 
-1. Inspect page and go to the application section
-2. In the cookies subsection replace the md5 encoded 'I_am_admin' cookie value with md5 ecoded 'true' string
-3. Submit login form
+### 1. Open Inspector -> Application section -> Cookies subsection
+
+---
+
+### 2. Take the 'I_am_admin' cookie value
+
+---
+
+### 3. Identify encrypting algorithm:
+
+`hashcat --identify`
+
+---
+
+### 4. Decrypt cookie value:
+
+https://md5decrypt.net/en/
+
+---
+
+### 5. Encrypt the string 'true' and paste result in the 'I_am_admin' cookie:
+
+https://md5decrypt.net/en/
+
+---
+
+### 6. Submit login form
