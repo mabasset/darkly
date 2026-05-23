@@ -1,5 +1,11 @@
 # http://172.28.128.136/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f
 
-1. Make a request to this url using these headers: Referer: https://www.nsa.gov/ - User-Agent: ft_bornToSec
+### 1. Open Inspector -> Sources section and read the entire html file
 
-   `curl -s "http://172.28.128.136/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f"   -H "Referer: https://www.nsa.gov/"   -H "User-Agent: ft_bornToSec" | grep flag`
+There are comments and the in the code that suggest to make a requets with Referer and User-Agent headers
+
+---
+
+### 2. Do a curl request:
+
+`curl -s "http://172.28.128.136/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca32c88e13b758f" -H "Referer: https://www.nsa.gov/" -H "User-Agent: ft_bornToSec" | grep flag`
