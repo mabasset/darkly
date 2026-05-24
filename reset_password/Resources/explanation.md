@@ -1,6 +1,6 @@
 # http://172.28.128.136/?page=recover
 
-### 1. Open Inspector and search for submit form
+### 1. Open DevTools and search for submit form
 
 ---
 

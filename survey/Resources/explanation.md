@@ -1,6 +1,6 @@
 # http://172.28.128.136/?page=survey
 
-### 1. Open Inspector and select one input of type select under the 'Grade' column
+### 1. Open DevTools and select one input of type select under the 'Grade' column
 
 ---
 
@@ -8,4 +8,4 @@
 
 ---
 
-### 3. Close the inspection tab and submit the modified input value by clicking on the altered select option
+### 3. Close DevTools and submit the modified input value by clicking on the altered select option

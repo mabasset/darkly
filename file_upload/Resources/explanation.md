@@ -4,7 +4,7 @@
 
 ---
 
-### 2. Open Inspector -> Network section
+### 2. Open DevTools -> Network section
 
 ---
 
