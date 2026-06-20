@@ -1,4 +1,6 @@
-# http://172.28.128.136/?page=media&src=nsa
+# XSS media walkthrough
+
+## http://172.28.128.136/?page=media&src=nsa
 
 ### 1. Inspect the nsa_prism.jpg image in the page
 

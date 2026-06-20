@@ -1,4 +1,6 @@
-# http://172.28.128.136/?page=signin
+# Bruteforce exploit walkthrough
+
+## http://172.28.128.136/?page=signin
 
 ### 1. Run script.js:
 

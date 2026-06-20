@@ -1,4 +1,6 @@
-# http://172.28.128.136/robots.txt/
+# htpasswd exploit walkthrough
+
+## http://172.28.128.136/robots.txt/
 
 ### 1. Read robots.txt file to find the /whatever/ directory
 

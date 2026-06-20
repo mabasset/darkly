@@ -1,4 +1,6 @@
-# http://172.28.128.136/?page=member
+# SQL injection member exploit walkthrough
+
+## http://172.28.128.136/?page=member
 
 ### 1. Get table's names:
 

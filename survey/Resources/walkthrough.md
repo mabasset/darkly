@@ -1,4 +1,6 @@
-# http://172.28.128.136/?page=survey
+# Survey exploit walkthrough
+
+## http://172.28.128.136/?page=survey
 
 ### 1. Open DevTools and select one input of type select under the 'Grade' column
 

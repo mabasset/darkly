@@ -1,4 +1,6 @@
-# http://172.28.128.136/?page=searchimg
+# SQL injection list image exploit walkthrough
+
+## http://172.28.128.136/?page=searchimg
 
 ### 1. Get table's names:
 

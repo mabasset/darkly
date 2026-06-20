@@ -1,4 +1,6 @@
-# http://172.28.128.136/index.php?page=signin
+# Cookies exploit walkthrough
+
+## http://172.28.128.136/index.php?page=signin
 
 ### 1. Open DevTools -> Application section -> Cookies subsection
 
