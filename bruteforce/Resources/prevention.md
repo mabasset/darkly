@@ -1,4 +1,4 @@
-# Brute Force Attack Prevention
+# Bruteforce attack prevention
 
 ### 1. Strong Password Policies
 
@@ -13,22 +13,14 @@ Enforce complexity requirements at the application level.
 
 Limit how many attempts an attacker can make in a given time window.
 
-### 3. IP Allowlisting and Geo-Blocking
-
-For sensitive systems (admin panels, SSH, VPNs):
-
-- Restrict access to known IP ranges
-- Block or flag login attempts from unexpected geographies
-- Use a VPN or jump host to limit the exposed attack surface
-
-### 4. Intrusion Detection and Monitoring
+### 3. Intrusion Detection and Monitoring
 
 Detect brute force attempts in real time.
 
 - **Log and alert** on repeated failed logins (e.g., >10 failures in 60 seconds)
 - Monitor for unusual patterns: logins at odd hours, new devices, impossible travel
 
-### 5. Secure SSH and Remote Access
+### 4. Secure SSH and Remote Access
 
 SSH is a common brute force target. Harden it:
 
