@@ -1,6 +1,6 @@
 # Reset password exploit walkthrough
 
-## http://172.28.128.136/?page=recover
+http://172.28.128.136/?page=recover
 
 ### 1. Open DevTools and search for submit form
 

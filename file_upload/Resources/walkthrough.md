@@ -1,6 +1,6 @@
 # File upload exploit walkthrough
 
-## http://172.28.128.136/?page=upload
+http://172.28.128.136/?page=upload
 
 ### 1. Create a malevolous php file (test.php)
 

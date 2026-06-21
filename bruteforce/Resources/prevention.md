@@ -1,35 +1,22 @@
 # Bruteforce attack prevention
 
-### 1. Strong Password Policies
-
-Enforce complexity requirements at the application level.
+### 1. Enforce password policies
 
 - Minimum 12–16 characters
 - Mix of uppercase, lowercase, digits, and symbols
 - Ban known weak passwords
 - Prohibit reuse of recent passwords
 
-### 2. Account Lockout & Rate Limiting
+### 2. Limit login attempts
 
 Limit how many attempts an attacker can make in a given time window.
 
-### 3. Intrusion Detection and Monitoring
+### 3. Require multi-factor authentication
 
-Detect brute force attempts in real time.
+Enforce the use of two-factor authentication. 2FA adds an extra layer of security by requiring users to provide two different authentication factors.
 
-- **Log and alert** on repeated failed logins (e.g., >10 failures in 60 seconds)
-- Monitor for unusual patterns: logins at odd hours, new devices, impossible travel
+### 4. Utilize CAPTCHA
 
-### 4. Secure SSH and Remote Access
+Implement CAPTCHA to differentiate between human and automated login attempts.
 
-SSH is a common brute force target. Harden it:
-
-```bash
-# /etc/ssh/sshd_config recommended settings
-
-PermitRootLogin no           # Never allow root login via SSH
-PasswordAuthentication no    # Disable passwords, use key-based auth only
-MaxAuthTries 3               # Limit attempts per connection
-LoginGraceTime 20            # Disconnect unauthenticated sessions quickly
-AllowUsers youruser          # Whitelist specific users
-```
+### 5. Use an Identity provider (like KeyCloak) instead of creating custom auth logic

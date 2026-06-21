@@ -1,6 +1,6 @@
 # Hidden file exploit walkthrough
 
-## http://172.28.128.136/robots.txt/
+http://172.28.128.136/robots.txt/
 
 ### 1. Read robots.txt file to find the /.hidden/ directory
 

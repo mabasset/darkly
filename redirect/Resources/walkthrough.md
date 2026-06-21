@@ -1,6 +1,6 @@
 # Redirect exploit walkthrough
 
-## http://172.28.128.136/index.php?page=redirect&site=evil
+http://172.28.128.136/index.php?page=redirect&site=evil
 
 ### 1. Open DevTools and select one of social media icons inside the footer
 
