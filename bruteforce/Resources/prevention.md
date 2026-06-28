@@ -20,3 +20,5 @@ Enforce the use of two-factor authentication. 2FA adds an extra layer of securit
 Implement CAPTCHA to differentiate between human and automated login attempts.
 
 ### 5. Use an Identity provider (like KeyCloak) instead of creating custom auth logic
+
+https://owasp.org/www-community/attacks/SQL_Injection

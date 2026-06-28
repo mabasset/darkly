@@ -20,3 +20,5 @@ rows, err := db.Query("SELECT * FROM users WHERE name = $1", name)
 1. The SQL template is sent to the database first — the database compiles/parses `SELECT * FROM users WHERE name = $1` as pure code, with a placeholder where the value will go.
 2. The value is sent separately — user_input is transmitted as data, not as SQL code.
 3. The database never interprets the value as SQL — it's treated as a plain string literal, no matter what it contains.
+
+https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
