@@ -21,8 +21,6 @@ https://owasp.org/www-community/attacks/Brute_force_attack
 
 ### Prevention
 
-https://owasp.org/www-community/attacks/SQL_Injection
-
 1. Enforce password policies
 
     - Minimum 12–16 characters

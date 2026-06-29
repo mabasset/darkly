@@ -23,7 +23,7 @@ https://www.techtarget.com/searchsecurity/definition/cookie-poisoning
 
 1. Server-side encryption / signing
 
-    Use a strong hasing algorithm in combination with a server-side key for signing cookies - like HMAC-SHA256.
+    Use a strong hashing algorithm in combination with a server-side key for signing cookies - like HMAC-SHA256.
 
 2. Restricting flags
 
