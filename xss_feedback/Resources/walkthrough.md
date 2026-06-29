@@ -1,5 +1,12 @@
-# XSS feedback walkthrough
+# XSS (Cross Site Scripting)
+
+### Walkthrough
 
 http://172.28.128.136/?page=feedback
 
-### 1. Just type 's' on the name input field
+1. Just type 's' on the name input field
+
+### Explanation & Prevention
+
+https://owasp.org/www-community/attacks/xss/
+https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html

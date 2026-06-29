@@ -1,15 +1,20 @@
-# XSS media walkthrough
+# XSS (Cross Site Scripting)
+
+### Walkthrough
 
 http://172.28.128.136/?page=media&src=nsa
 
-### 1. Inspect the nsa_prism.jpg image in the page
+1. Inspect the nsa_prism.jpg image in the page
 
-- The image is identified by the src url param
-- Is served through the object html tag, which embeds resource data to be rendered
+    - The image is identified by the src url param
+    - It's served through Data URLs. Are prefixed with the data: and allow to embed small files inline in documents.
 
----
+2. Remove nsa from url and add "data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="
 
-### 2. Remove nsa from url and add "data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg=="
+    - This makes the html object render inline html
+    - base64 is used to encode <script>alert(1)</script> to successfully view the flag
 
-- This makes the html object render inline html
-- base64 is used to encode <script>alert(1)</script> to successfully view the flag
+### Explanation & Prevention
+
+https://owasp.org/www-community/attacks/xss/
+https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
