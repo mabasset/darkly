@@ -2,7 +2,7 @@
 
 ### Walkthrough
 
-http://172.28.128.136/?page=member
+http://VM_IP/?page=member
 
 1. Get table's names:
 

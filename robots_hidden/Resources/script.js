@@ -20,7 +20,7 @@ async function recursive(url) {
 }
 
 async function main() {
-  await recursive("http://172.28.128.136/.hidden/");
+  await recursive("http://VM_IP/.hidden/");
 }
 
 main();

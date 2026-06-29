@@ -2,7 +2,7 @@
 
 ### Walkthrough
 
-http://172.28.128.136/?page=recover
+http://VM_IP/?page=recover
 
 1. Open DevTools and search for submit form
 2. Remove the hidden email input

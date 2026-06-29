@@ -2,7 +2,7 @@
 
 ### Walkthrough
 
-http://172.28.128.136/?page=recover
+http://VM_IP/?page=recover
 
 1. Open DevTools and select one input of type select under the 'Grade' column
 2. Choose one of the select option's values and write a number greater than 10

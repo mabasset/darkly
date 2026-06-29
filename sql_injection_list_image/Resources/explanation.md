@@ -2,7 +2,7 @@
 
 ### Walkthrough
 
-http://172.28.128.136/?page=searchimg
+http://VM_IP/?page=searchimg
 
 1. Get table's names:
 
