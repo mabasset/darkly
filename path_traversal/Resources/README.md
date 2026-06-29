@@ -8,6 +8,6 @@ http://VM_IP/?page=../../../../../../../etc/passwd
 
 ---
 
-### Explanation
+### Explanation & Prevention
 
 https://owasp.org/www-community/attacks/Path_Traversal

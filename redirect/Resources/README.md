@@ -10,6 +10,6 @@ http://VM_IP/index.php?page=redirect&site=evil
 
 ---
 
-### Explanation
+### Explanation & Prevention
 
 https://cheatsheetseries.owasp.org/cheatsheets/Unvalidated_Redirects_and_Forwards_Cheat_Sheet.html

@@ -13,6 +13,6 @@ http://VM_IP/?page=upload
 
 ---
 
-### Explanation
+### Explanation & Prevention
 
 https://cheatsheetseries.owasp.org/cheatsheets/File_Upload_Cheat_Sheet.html

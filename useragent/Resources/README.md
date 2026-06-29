@@ -15,3 +15,5 @@ curl -s "http://VM_IP/?page=b7e44c7a40c5f80139f0a50f3650fb2bd8d00b0d24667c4c2ca3
 
 ### Explanation
 
+https://en.wikipedia.org/wiki/Referer_spoofing
+https://www.clickguard.com/glossary/user-agent-spoofing

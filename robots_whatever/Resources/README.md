@@ -10,3 +10,8 @@ http://VM_IP/robots.txt/
 6. Use the credentials on this form to retrieve the flag
 
 ---
+
+### Explanation & Prevention
+
+https://www.baeldung.com/cs/robots-txt-risk-threat
+https://owasp.org/www-community/Fuzzing

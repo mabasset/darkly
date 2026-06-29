@@ -1,8 +1,22 @@
-# Client-side Trust / Parameter Tampering Prevention
+# Survey
 
-Best prevention is to apply each layer below:
+### Walkthrough
 
-### 1. Server-side validation
+http://VM_IP/?page=recover
+
+1. Open DevTools and select one input of type select under the 'Grade' column
+2. Choose one of the select option's values and write a number greater than 10
+3. Close DevTools and submit the modified input value by clicking on the altered select option
+
+---
+
+### Explanation
+
+https://owasp.org/www-community/attacks/Web_Parameter_Tampering
+
+---
+
+### Prevention
 
 Always re-validate every constraint the UI enforces, on the server. Never assume the client sent what the form expected. — they can be freely edited in DevTools before submission.
 

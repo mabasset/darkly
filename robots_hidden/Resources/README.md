@@ -14,6 +14,6 @@ http://VM_IP/robots.txt/
 
 ---
 
-### Explanation
+### Explanation & Prevention
 
 https://www.baeldung.com/cs/robots-txt-risk-threat
